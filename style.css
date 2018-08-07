@@ -1,0 +1,492 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+#container
+{
+	width: 1125px;
+	height: 4372px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	margin-top: 0;
+}
+
+.naglowek {
+	width: 1125px;
+	height: 580px;
+	background-image: url("img/fala1.gif");
+	background-size: 1250px;
+}
+
+.voucher {
+	width: 871px;
+	padding-left: 127px;
+	padding-right: 127px;
+	background-image: url("img/tlo1.png");
+}
+
+.standardy {
+	width: 1125px;
+	height: 638px;
+	background-image: url("img/fala2.gif");
+	color: white;
+}
+
+.lekarze {
+	width: 1125px;
+	text-align: center;
+	background-image: url("img/tlo2.png");
+}
+
+.ceny {
+	width: 1125px;
+	height: 550px;
+	padding-top: 120px;
+	background-image: url("img/fala3.gif");
+	color: white;
+	text-align: center;
+}
+
+.opinie {
+	width: 1125px;
+	height: 650px;
+	background-image: url("img/tlo3.png");
+	text-align: center;
+}
+
+.subskrycje {
+	width: 1125px;
+	height: 902px;
+	background-image: url("img/fala4.png");
+}
+
+.stopka {
+	width: 1125px;
+	height: 389px;
+	background-image: url("img/stopka.gif");
+}
+
+.stopka1 {
+	height: 800px;
+}
+
+.nag1 {
+	float: left;
+	color: white;
+	width: 240px;
+	margin-left: 230px;
+	margin-top: 40px;
+}
+
+.korekcja {
+	background-color: red;
+	width: 192px;
+	height: 55px;
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-top: 6px;
+	margin-top: 30px;
+}
+
+.nag2 {
+	float: left;
+	width: 272px;
+	height: 460px;
+	background-color: rgba(242, 242, 242, 0.5);
+	margin-left: 150px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.form {
+	background-color: white;
+	width: 222px;
+	height: 425px;
+	margin-left: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 10px;
+	text-align: center;
+}
+
+.email {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 27px;
+	background-color: rgba(150, 215, 215, 0.7);
+	border-radius: 20px;
+	border-color: rgba(0, 205, 203, 1);
+	border-style: solid;
+	color: rgba(0, 205, 203, 1);
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+.button {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 170px;
+	height: 27px;
+	background-color: red;
+	color: white;
+	border-radius: 20PX;
+	padding: 0 auto;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.regulamin {
+	font-size: 9px;
+	float: left;
+	width: 202px;
+	text-align: left;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.chec {
+	width: 15px;
+	float: left;
+	height: 10px;
+	margin-right: 3px;
+	margin-top: 2px;
+}
+
+input[type=text] {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 30px;
+	background-color: rgba(150, 215, 215, 0.7);
+	border-radius: 20px;
+	border-color: rgba(0, 205, 203, 1);
+	border-style: solid;
+	color: rgba(0, 205, 203, 1);
+	padding-left: 10px;
+}
+
+input[type=submit] {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 170px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	border-radius: 20PX;
+	padding: 0 auto;
+	text-align: center;
+	font-size: 15px;
+}
+
+.lasek {
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.vouch {
+	float: left;
+	width: 250px;
+	height: 150px;
+	padding: 20px;
+	padding-top: 50px;
+	background-repeat: no-repeat;
+}
+.vouchernag {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	width: 831px;
+}
+
+.tekst2 {
+	font-size: 20px;
+	color: rgba(0, 205, 203, 1);
+	width: auto;
+	height: auto;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.voucherprzycisk {
+	float: left;
+	width: 250px;
+}
+
+.voucherstop {
+	margin-top: 0;
+	margin: auto;
+	padding: auto;
+	width: 500px;
+	text-align: center;
+}
+
+.standardynag {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	width: 800px;
+	padding-top: 120px;
+	margin: auto;
+}
+
+.tekst3 {
+	font-size: 20px;
+	width: auto;
+	height: auto;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+input.standardprzycisk {
+	width: 170px;
+	height: 40px;
+	background-color: white;
+	border-radius: 20PX;
+	float: left;
+	color: rgba(0, 205, 203, 1);
+	border-style: solid;
+	border-color: rgba(0, 205, 203, 1);
+	text-align: center;
+}
+
+input.standardprzycisk1 {
+	width: 170px;
+	height: 40px;
+	background-color: white;
+	border-radius: 20PX;
+	float: left;
+	color: rgba(0, 205, 203, 1);
+	border-style: solid;
+	border-color: rgba(0, 205, 203, 1);
+	text-align: center;
+	margin-left: 60px;
+}
+
+.standard {
+	font-size: 13px;
+	width: 350px;
+	float: left;
+	text-align: left;
+}
+
+.lekarzenag {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	width: 830px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.lekarz {
+	font-size: 18px;
+	width: 290px;
+	float: left;
+	padding: 25px;
+}
+
+.opislekarza {
+	font-size: 13px;
+}
+
+.strzalka {
+	width: 50px;
+	float: left;
+	padding-top: 150px;
+}
+
+.opislekarza1 {
+	font-size: 18px;
+}
+
+.cenynag {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.cenacena {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ram {
+	width: 800px;
+	margin: 0 auto;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.ramka {
+	width: 160px;
+	float: left;
+}
+
+.gora {
+	width: 140px;
+	height: 80px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: white;
+	color: #66ffe0;
+}
+
+.dol {
+	width: 140px;
+	height: 50px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #66ffe0;
+}
+
+.tekst4 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.opinie1 {
+	width: 1020px;
+	margin: auto;
+	text-align: left;
+}
+
+.gwiazdy {
+	width: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gwiazda {
+	width: 20px;
+	float: left;
+}
+
+.opinienag {
+	font-size: 30px;
+	text-align: center;
+}
+
+.form2 {
+	width: 600px;
+	height: 380px;
+	background-color: rgba(242, 242, 242, 0.5);
+	border-radius: 15px;
+	margin-left: 450px;
+	padding: 25px;
+}
+
+.form22 {
+	background-color: white;
+	width: 600px;
+	height: 380px;
+}
+
+.form22a {
+	padding: 15px;
+	width: 270px;
+	float: left;
+}
+
+.stopkatekst1 {
+	margin-top: 50px;
+	color: rgba(0, 205, 203, 1);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.stopkatekst2 {
+	margin-top: 25px;
+	color: rgba(0, 205, 203, 1);
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 120px;
+}
+
+.sto {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.sto1 {
+	float: left;
+	width: 300px;
+	height: 120px;
+	text-align: right;
+}
+
+.sto2 {
+	float: left;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	margin: auto;
+}
+
+.sto3 {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/*
+.button4 {
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 27px;
+	width: 230px;
+	background-color: #33E0B1;
+	color: white;
+	border-radius: 20PX;
+	padding: 0 auto;
+	padding-top: 8px;
+	text-align: center;
+}
+*/
+.sto31 {
+	width: 200px;
+	float: left;
+}
+
+input.stopkaprzycisk {
+	margin: 0 auto;
+	background-color: #33E0B1;
+	color: white;
+	border-radius: 20PX;
+	padding: 0 auto;
+	text-align: center;
+	width: 250px;
+}
+
+.blad {
+	color: red;
+}
+
+.ok {
+	color: green;
+}
